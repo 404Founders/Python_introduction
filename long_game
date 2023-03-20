@@ -1,0 +1,42 @@
+print("Senses")
+choice = input("""
+    1. Listening
+    2. Tasting
+    3. Smelling
+    4. Feeling
+    5. Seeing
+    """)
+print(choice)
+if choice == "1":
+    next_choice = input("""
+    1. Loud noises
+    2. Music
+    3. Quiet Noises
+    4. People talking
+    """)
+    if next_choice == "1":
+        print("Loud Noises: Airplanes, Construction Sites.")
+    elif next_choice == "2":
+        print("Music")
+    elif next_choice == "3":
+        print("Quiet Noises")
+    else:
+        print("People talking")
+elif choice == "2":
+    next_choice = input("""
+    1. Good Food
+    2. Healthy Food
+    3. Fatty Food
+    4. Poison
+    """)
+    if next_choice == "1":
+        print("Good Food: Pizza")
+    elif next_choice == "2":
+        print("Healthy Food: Salad")
+    elif next_choice == "3":
+        print("Fatty Food: Cheese Fries")
+    else: 
+        print("Carbon Monoxide")
+else:
+    print(choice, next_choice)
+
