@@ -13,4 +13,4 @@ elif choice ==2:
     a big building in a living tree and the Mon Calamari Embassy a floating bubble of water held together
     by artificial gravity fields.""")
 else:
-    print("""LaHarr Boulevard takes you the Musuems district. You see the Alderaanian Musuem of contemporary Arts.""")
+    print("""LaHarr Boulevard takes you the Museums district. You see the Alderaanian Musuem of contemporary Arts.""")
